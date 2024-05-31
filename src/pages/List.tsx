@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import PlanetService from "../services/planets";
 import useRequest from "../hooks/useRequest";
 
-function List() {
+const List: React.FC = () => {
   const { call, next, prev, response, loading } = useRequest(PlanetService.getAll);
 
   useEffect(() => {
