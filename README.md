@@ -1,4 +1,5 @@
 # React Hook Fetch
+
 This project was created to exemplify the use of a custom hook for requests in a React application. The hook is designed to simplify the process of making requests to services by implementing paging support and allowing the hook return to be typed according to the service being executed. In addition, this technique makes it possible to use several request implementations simultaneously. The api chosen for testing was [**https://swapi.dev**](https://swapi.dev).
 
 <details>
@@ -16,6 +17,7 @@ This project was created to exemplify the use of a custom hook for requests in a
 
 ## Usage
 ### Dependencies
+
 Install dependencies and modules.
 
 ```bash
@@ -23,6 +25,7 @@ $ npm install
 ```
 
 ### Scripts
+
 After installing the dependencies the application is ready to run.
 
 ```bash
@@ -31,6 +34,7 @@ $ npm run dev
 ```
 
 ## License
+
 Project developed for academic purposes.
 
 [![License: MIT](https://img.shields.io/github/license/guiigos/react-styled-components?style=flat-square)](./LICENSE)
